@@ -18,7 +18,7 @@ from mailtm import Email
 # -----------------------------
 # CONFIG
 # -----------------------------
-WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
+WEBHOOK_URL = os.getenv("N8N_WEBHOOK")
 
 start_date = datetime(2026, 3, 23)
 base_value = 50
