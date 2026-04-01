@@ -28,5 +28,5 @@ jobs:
 
       - name: Run script
         env:
-          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK }}
         run: python main.py
