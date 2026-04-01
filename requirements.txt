@@ -1,0 +1,8 @@
+selenium
+webdriver-manager
+pandas
+requests
+mailtm
+beautifulsoup4
+chardet
+openpyxl
